@@ -1,0 +1,9 @@
+<% @recipes.each do |recipe| %>
+<ul class="list-group">
+  <li class="list-group-item">
+    <%= "#{recipe[0]}, #{recipe[1]}, #{recipe[2]}" %>
+  </li>
+</ul>
+<% end %>
+
+<a href="http://localhost:4567/new"> New </a>
